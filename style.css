@@ -1,7 +1,8 @@
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
-    padding: 0; 
+    padding: 0;
+    list-style: none;
 }
 
 html {
@@ -15,4 +16,10 @@ html {
 .main-container {
     display: grid;
     grid-template-columns: 2em 1fr 2em;
+    grid-template-rows: auto auto;
+}
+
+.container {
+    grid-column: 2 / 3;
+    display: grid;
 }
