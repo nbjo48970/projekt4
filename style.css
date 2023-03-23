@@ -1,3 +1,17 @@
+:root {
+    --clr-pink: #f1c9c0;
+    --clr-lightBlue: #e4f1f0;
+    --clr-yellow: #fbe355;
+    --clr-blue: #00454e;
+    --clr-darkBlue: #003037;
+    --clr-black: #171717;
+    --clr-white: #f6f6f6;
+
+    --ff-primary: 'proxima-nova', sans-serif;
+    --ff-logo: 'Arvo', serif;
+
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
@@ -13,6 +27,10 @@ html {
     overflow-y: scroll;
 }
 
+body {
+    font-family: var(--ff-primary);
+}
+
 .main-container {
     display: grid;
     grid-template-columns: 2em 1fr 2em;
@@ -22,4 +40,24 @@ html {
 .container {
     grid-column: 2 / 3;
     display: grid;
+}
+
+#UCL-logo {
+    max-height: 100px;
+    display: block;
+    margin: 5em auto;
+}
+
+.index-search {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid var(--clr-blue);
+    border-radius: 50vh;
+    font-size: 16px;
+    background-color: var(--clr-white);
+    background-image: url('img/searchlogoplaceholder.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    background-size: 25px;
+    padding: 12px 20px 12px 44px;
 }
