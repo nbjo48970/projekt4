@@ -63,17 +63,23 @@ body {
 }
 
 .forenings-container {
-    display: grid;
-    grid-template-rows: repeat(6, 1fr);
+    display: flex;
+    flex-direction: column;
     row-gap: 20px;
 }
 
 .forening {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+}
+
+.forening-text h2 {
+    margin-bottom: 50px;
 }
 
 .forenings-container img {
-    width: 20rem;
+    width: 500px;
     height: auto;
 }
+
