@@ -34,7 +34,7 @@ body {
 .main-container {
     display: grid;
     grid-template-columns: 2em 1fr 2em;
-    grid-template-rows: auto auto;
+    grid-template-rows: 5em auto auto;
 }
 
 .container {
@@ -62,10 +62,11 @@ body {
     padding: 12px 20px 12px 44px;
 }
 
+
 .forenings-container {
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
+    display: grid;
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
 }
 
 .forening {
@@ -74,9 +75,9 @@ body {
     column-gap: 50px;
 }
 
-.forening-text {
+/* .forening-text {
     
-}
+} */
 
 .forening-text h2 {
     margin-bottom: 50px;
