@@ -48,20 +48,36 @@ body {
     margin: 5em auto;
 }
 
-.index-search {
+.input-search {
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat right 10px top 4px;
+    background-size: 35px;
     width: 100%;
     box-sizing: border-box;
     border: 2px solid var(--clr-blue);
     border-radius: 50vh;
     font-size: 16px;
     background-color: var(--clr-white);
-    background-image: url('img/searchlogoplaceholder.png');
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
-    background-size: 25px;
-    padding: 12px 20px 12px 44px;
+    padding: 12px 40px 12px 20px;
+    font-family: var(--ff-primary);
 }
 
+.profile-button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 2em 2em 0 2em;
+}
+
+.profile-button {
+    border: none;
+    border-radius: 50vh;
+    background-color: var(--clr-white);
+    height: 50px;
+}
+
+.profile-button img {
+    height: 50px;
+    scale: 0.9;
+}
 
 .forenings-container {
     display: grid;
