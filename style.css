@@ -45,7 +45,7 @@ body {
 #UCL-logo {
     max-height: 100px;
     display: block;
-    margin: 5em auto;
+    margin: 3em auto;
 }
 
 .input-search {
@@ -77,6 +77,25 @@ body {
 .profile-button img {
     height: 50px;
     scale: 0.9;
+}
+
+.home-nav-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.home-nav {
+    border: none;
+    border-radius: 50vh;
+    background-color: var(--clr-lightBlue);
+    height: 70px;
+}
+
+.home-nav img {
+    height: 70px;
+    scale: 0.7;
 }
 
 .forenings-container {
