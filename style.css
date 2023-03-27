@@ -29,6 +29,7 @@ html {
 
 body {
     font-family: var(--ff-primary);
+    background: linear-gradient(180deg, rgba(241,201,192,1) 0%, rgb(255, 255, 255) 28%, rgba(228,241,240,1) 100%);
 }
 
 .main-container {
@@ -130,7 +131,6 @@ body {
 }
 
 .bot-nav {
-    background-color: var(--clr-lightBlue);
     overflow: hidden;
     position: fixed;
     bottom: 0;
