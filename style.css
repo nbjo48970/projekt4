@@ -61,10 +61,28 @@ body {
     font-family: var(--ff-primary);
 }
 
-.profile-button-container {
+.top-nav-container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
     margin: 2em 2em 0 2em;
+}
+
+.top-nav-home {
+    justify-content: flex-end;
+}
+
+.back-button {
+    border: none;
+    border-radius: 50vh;
+    background-color: inherit;
+    height: 50px;
+    cursor: pointer;
+}
+
+.back-button img {
+    height: 50px;
+    scale: 0.9;
 }
 
 .profile-button {
@@ -96,6 +114,29 @@ body {
 .home-nav img {
     height: 70px;
     scale: 0.7;
+}
+
+.bot-nav {
+    background-color: var(--clr-lightBlue);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.bot-nav-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bot-nav a {
+    float: left;
+    display: block;
+    color: var(--clr-darkBlue);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 .forenings-container {
