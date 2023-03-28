@@ -12,15 +12,21 @@
 </head>
 
 <body>
-
-  <div class="main-container">
-    <header class="top-nav">
-      <button class="back-button"></button>
-      <div class="page-title">Foreninger</div>
-      <div class="profile-button-container">
-        <button class="profile-button"></button>
+  <header class="top-nav">
+    <div class="top-nav-container">
+      <button class="back-button">
+        <img src="img/backarrow.png" alt="back button" onclick="history.back()">
+      </button>
+      <div class="page-title">
+        <h2>Foreninger</h2>
       </div>
-    </header>
+        <a href="profile.html" class="profile-button">
+          <img src="img/profile.png" alt="profile icon">
+        </a>
+      </div>
+  </header>
+  <div class="main-container">
+
   
       <section class="forenings-container">
         <div class="forening">
@@ -80,35 +86,30 @@
       </section>
 
 
-    <nav class="bot-nav">
-      <ul class="bot-nav-button-container">
-        <li>
-          <button class="bot-nav-button">
-            <div></div>
-          </button>
-        </li>
-        <li>
-          <button class="bot-nav-button">
-            <div></div>
-          </button>
-        </li>
-        <li>
-          <button class="bot-nav-button">
-            <div></div>
-          </button>
-        </li>
-        <li>
-          <button class="bot-nav-button">
-            <div></div>
-          </button>
-        </li>
-        <li>
-          <button class="bot-nav-button">
-            <div></div>
-          </button>
-        </li>
-      </ul>
-    </nav>
+      <nav class="bot-nav">
+        <ul class="bot-nav-container">
+          <li>
+            <a href="index.html">
+              <img src="img/home.png" alt="">
+              <h4>Home</h4></a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/feed.png" alt="">
+              <h4>Feed</h4></a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/discover.png" alt="">
+              <h4>Explore</h4></a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/calender.png" alt="">
+              <h4>Kalender</h4></a>
+          </li>
+        </ul>
+      </nav>
   </div>
 </body>
 </html>
