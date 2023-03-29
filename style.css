@@ -29,7 +29,8 @@ html {
 
 body {
     font-family: var(--ff-primary);
-    background: linear-gradient(180deg, rgba(241,201,192,1) 0%, rgb(255, 255, 255) 28%, rgba(228,241,240,1) 100%);
+    /* background: linear-gradient(180deg, rgba(241,201,192,1) 0%, rgb(255, 255, 255) 28%, rgba(228,241,240,1) 100%); */
+    background: var(--clr-lightBlue);
     background-attachment: fixed;
 }
 
@@ -136,13 +137,14 @@ body {
     overflow: hidden;
     position: fixed;
     bottom: 0;
-    width: 100%;    
+    width: 100%;
 }
 
 .bot-nav-container {
     display: flex;
     justify-content: space-evenly;
-    margin: 4px 0;
+    padding: 14px 0 6px 0;
+    background: var(--clr-lightBlue);
 }
 
 .bot-nav-container a {
