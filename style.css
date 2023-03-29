@@ -252,7 +252,6 @@ body {
     display: grid;
     grid-row: 2 / 3;
     grid-column: 2 / 3;
-    gap: 50px;
 }
 
 .forening {
@@ -310,7 +309,6 @@ body {
 }
 
 
-
 /*Forening page*/
 
 .breadcrumbs { 
@@ -328,13 +326,17 @@ body {
 }
 
 .forening-top-img img {
+    display: grid;
+    grid-column: 1 / 4;
     width: 100%;
     height: auto;
 }
 
 .forening-title {
-    display: grid;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    color: #003037;
 }
 
 .forenings-container hr {
@@ -343,13 +345,59 @@ body {
     background-color: var(--clr-darkBlue);
 }
 
+.forening-info {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.follow-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.follow-buttons p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 26px;
+}
+
+.follow-button {
+    background-color: #00454e;
+    border: solid 2px var(--clr-blue);
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-right: 10px;
+    color: #f6f6f6;
+}
+
+.ansøg-button {
+    border: solid 2px var(--clr-blue);
+    color: #00454e;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
 .event {
     display: grid;
 }
 
-.event img{
-    width: 100%;
+#ass-img{
+    width: 60%;
     height: auto;
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .event-text h3 {
