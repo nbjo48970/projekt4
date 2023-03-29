@@ -164,39 +164,212 @@ body {
     text-align: center;
 }
 
+
+
+/*Forening-browsing*/
+
 .forenings-container {
     display: grid;
     grid-row: 2 / 3;
     grid-column: 2 / 3;
+    gap: 30px;
 }
 
 .forening {
-    display: flex;
-    flex-direction: row;
-    column-gap: 50px;
+    display: grid;
+    color: var(--clr-darkBlue);
 }
 
-/* .forening-text {
-    
-} */
-
-.forening-text h2 {
-    margin-bottom: 50px;
-    color: var(--clr-white);
-    background-color: var(--clr-darkBlue);
+.forening-img {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
-.forenings-container img {
-    width: 500px;
+.forening-img img {
+    display: grid;
+    width: 100%;
     height: auto;
 }
 
-.event-container {
+.forening-text {
+    display: grid;
+    margin-bottom: 10px;
+}
+
+.forening-text h3 {
+    margin-bottom: 20px;
+}
+
+.forening-read-more {
+    display: grid;
+    justify-content: center;
+}
+
+.read-more-button {
+    display: flex;
+    justify-content: center;
+    background-color: var(--clr-darkBlue);
+    color: var(--clr-white);
+    text-decoration: none;
+    border: 4px;
+    border-color: #003037;
+    padding: 10px 20px;
+    width: 150px;
+    height: 50px;
+}
+
+.read-more-button p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bot-margin {
+    margin-bottom: 100px;
+}
+
+
+
+/*Forening page*/
+
+.breadcrumbs { 
+    display: grid;
+    justify-content: center;
+    color: var(--clr-darkBlue);
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+
+.forening-top-img {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.forening-top-img img {
+    width: 100%;
+    height: auto;
+}
+
+.forening-title {
+    display: grid;
+    justify-content: center;
+}
+
+.forenings-container hr {
+    display: grid;
+    height: 3px;
+    background-color: var(--clr-darkBlue);
+}
+
+.event {
     display: grid;
 }
 
-.breadcrumbs { 
+.event img{
+    width: 100%;
+    height: auto;
+}
+
+.event-text h3 {
+    margin-bottom: 20px;
+}
+
+.events-button {
+    display: grid;
+    justify-content: center;
+}
+
+.see-events-button {
     display: flex;
+    justify-content: center;
+    background-color: var(--clr-darkBlue);
+    color: var(--clr-white);
+    text-decoration: none;
+    border: 4px;
+    border-color: #003037;
+    padding: 10px 20px;
+    width: 150px;
+    height: 50px;
+}
+
+.see-events-button p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Forenings events*/
+
+.events-container {
+    display: grid;
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    gap: 30px;
+}
+
+.events-img {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.events-img img {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.events-text {
+    display: grid;
+    margin-bottom: 20px;
+}
+
+.events-text h3 {
+    margin-bottom: 20px;
+}
+
+.events-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.events-cta-button {
+    display: flex;
+    justify-content: center;
+    background-color: var(--clr-darkBlue);
+    color: var(--clr-white);
+    text-decoration: none;
+    border: 4px;
+    border-color: #003037;
+    padding: 10px 20px;
+    width: 150px;
+    height: 50px;
+}
+
+.events-cta-button p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Event page*/
+
+.event-container {
+    display: grid;
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    gap: 30px;
+}
+
+.breadcrumbs { 
+    display: grid;
     justify-content: center;
     color: var(--clr-darkBlue);
     font-weight: lighter;
@@ -204,9 +377,104 @@ body {
 }
 
 .event-top-img {
-    display: flex;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.event-top-img img {
+    width: 100%;
+    height: auto;
+}
+
+.event-title {
+    display: grid;
     justify-content: center;
 }
+
+.event-container hr {
+    display: grid;
+    height: 3px;
+    background-color: var(--clr-darkBlue);
+}
+
+.event {
+    display: grid;
+}
+
+.event img{
+    width: 100%;
+    height: auto;
+}
+
+.event-text h3 {
+    margin-bottom: 20px;
+}
+
+.events-button {
+    display: grid;
+    justify-content: center;
+}
+
+.see-events-button {
+    display: flex;
+    justify-content: center;
+    background-color: var(--clr-darkBlue);
+    color: var(--clr-white);
+    text-decoration: none;
+    border: 4px;
+    border-color: #003037;
+    padding: 10px 20px;
+    width: 150px;
+    height: 50px;
+}
+
+.see-events-button p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.forenings-container img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.event-container {
+    display: grid;
+}
+
+
+
+.event-top-img {
+    display: grid;
+    justify-content: center;
+}
+
+
 
 .event-title {
     display: flex;
@@ -214,29 +482,19 @@ body {
     margin: 30px 0px 5px 0px;
 }
 
-.event-container hr {
-    margin-left: 40px;
-    margin-right: 40px;
-    height: 4px;
-    background-color: #171717;
-}
 
+/*
 .event {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 40px 40px 0px 40px;
-}
+}*/
 
-.event img{
-    max-width: 400px;
-    height: auto;
-    margin-left: 40px;
-}
+/*
 
 .event-top-img img{
-    width: 80%;
-    max-width: 800px;
+    width: 100%;
     height: auto;
 }
 
@@ -246,7 +504,7 @@ body {
     margin-top: 50px;
 }
 
-.deltag-button {
+.deltag-cta-button {
     width: 200px;
     display: flex;
     justify-content: center;
@@ -255,6 +513,7 @@ body {
     border-radius: 50px;
     padding: 20px 0px 20px 0px;
     text-decoration: none;
+    margin-bottom: 100px;
 }
 
 .events-container {
@@ -272,13 +531,20 @@ body {
     color: #f6f6f6;
     border-radius: 20px;
     padding: 20px;
-  
+    columns: 2;
+    
 }
 
 .events img {
-    display: block;
+    display: flex;
+    flex-direction: column;
     max-width: 300px;
     height: auto;
     margin-left: 40px;
     border-radius: 10px;
+}
+
+.events-img p {
+    float: right;
+    margin-top: 10px;
 }
