@@ -306,7 +306,7 @@ body {
 }
 
 .bot-margin {
-    margin-bottom: 100px;
+    margin-bottom: 130px;
 }
 
 
@@ -510,20 +510,20 @@ body {
     margin-bottom: 40px;
 }
 
-.forening-top-img {
+.event-top-img {
     display: grid;
     justify-content: center;
     margin-bottom: 20px;
 }
 
-.forening-top-img img {
+.event-top-img img {
     display: grid;
     grid-column: 1 / 4;
     width: 100%;
     height: auto;
 }
 
-.forening-title {
+.event-title {
     display: flex;
     justify-content: space-between;
     align-items: end;
@@ -536,7 +536,7 @@ body {
     background-color: var(--clr-darkBlue);
 }
 
-.forening-info {
+.event-info {
     display: grid;
     align-items: center;
     grid-template-columns: repeat(2, 1fr);
@@ -544,51 +544,42 @@ body {
     margin-bottom: 20px;
 }
 
-.follow-buttons {
+.deltag-buttons {
     display: flex;
     flex-direction: row;
     justify-content: end;
 }
 
-.follow-buttons p {
+.deltag-buttons p {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 26px;
 }
 
-.follow-button {
+.deltag-button {
     background-color: #00454e;
     border: solid 2px var(--clr-blue);
     width: 100px;
     height: 30px;
     border-radius: 50px;
     text-decoration: none;
-    margin-right: 10px;
     color: #f6f6f6;
+    margin-right: 10px;
 }
 
-.ansøg-button {
+.interest-button {
+    background-color: var(--clr-white);
     border: solid 2px var(--clr-blue);
-    color: #00454e;
     width: 100px;
     height: 30px;
     border-radius: 50px;
     text-decoration: none;
+    color: var(--clr-darkBlue);
 }
 
 .event {
     display: grid;
-}
-
-#ass-img{
-    width: 60%;
-    height: auto;
-    display: grid;
-    justify-content: center;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .event-text h3 {
