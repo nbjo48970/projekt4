@@ -502,7 +502,7 @@ body {
 
 /*Event page*/
 
-.breadcrumbs { 
+.breadcrumbs {
     display: grid;
     justify-content: center;
     color: var(--clr-darkBlue);
@@ -722,11 +722,7 @@ body {
     margin-top: 2rem;
 }
 
-.main-container-settings {
-    display: grid;
-    grid-template-columns: 2em 1fr 2em;
-    grid-template-rows: 1fr;
-}
+
 
 .input-container {
 
@@ -741,7 +737,13 @@ body {
 .settings {
   text-decoration: none;
   list-style: none;
-  
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.settings li {
+  padding: .4rem;
 }
 
 
