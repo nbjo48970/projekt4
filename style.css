@@ -248,7 +248,7 @@ body {
 
 
 /*Forening-browsing*/
-
+/*
 .forenings-container {
     display: grid;
     grid-row: 2 / 3;
@@ -316,9 +316,66 @@ body {
     justify-content: center;
     align-items: center;
 }
+*/
 
 .bot-margin {
     margin-bottom: 120px;
+}
+
+.forenings-container {
+    display: grid;
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+
+.forening {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.forening img {
+    display: grid;
+    width: 100%;
+}
+
+.forenings-info {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.forenings-info p {
+    margin-bottom: 8px;
+}
+
+.info {
+    font-size: small;
+}
+
+.member-button {
+    display: flex;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.member-button a {
+    background-color: var(--clr-darkBlue);
+    width: 100%;
+    text-decoration: none;
+    color: var(--clr-white);
+    border-radius: 4px;
+}
+
+.member-button p {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 5px 0px;
+}
+
+.forening hr {
+    margin-top: 10px;
+    grid-column: span 2;
+    margin-bottom: 50px;
 }
 
 
@@ -429,8 +486,6 @@ body {
     background-color: var(--clr-darkBlue);
     color: var(--clr-white);
     text-decoration: none;
-    border: 4px;
-    border-color: #003037;
     padding: 10px 20px;
     width: 150px;
     height: 50px;
@@ -598,30 +653,6 @@ body {
     margin-bottom: 20px;
 }
 
-.events-button {
-    display: grid;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.see-events-button {
-    display: flex;
-    justify-content: center;
-    background-color: var(--clr-darkBlue);
-    color: var(--clr-white);
-    text-decoration: none;
-    border: 4px;
-    border-color: #003037;
-    padding: 10px 20px;
-    width: 150px;
-    height: 50px;
-}
-
-.see-events-button p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 
 
