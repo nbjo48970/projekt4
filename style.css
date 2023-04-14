@@ -72,6 +72,8 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 2em 2em 0 2em;
+    border-bottom: solid 1px;
+    padding-bottom: 1em;
 }
 
 .top-nav-home {
@@ -716,10 +718,3 @@ body {
 .settings li {
   padding: .4rem;
 }
-
-
-
-
-
-
-
