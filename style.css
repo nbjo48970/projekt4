@@ -71,13 +71,17 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2em 2em 0 2em;
-    border-bottom: solid 1px;
-    padding-bottom: 1em;
+    margin: 1em 2em 0 2em;
+
 }
 
 .top-nav-home {
     justify-content: flex-end;
+}
+
+.nav-border {
+  border-bottom: solid 1px;
+  padding-bottom: .5em;
 }
 
 .back-button {
