@@ -733,9 +733,9 @@ form#login-form input[type=text] {
   height: 60px;
   background: rgb(249, 247, 240);
   padding-left: 30px;
-  border: solid 1px rgb(249, 247, 240);
+  border: solid 1px var(--clr-greyBlue);
   font-family: "proxima-nova", sans-serif;
-  font-size: 25px;
+  font-size: 16px;
   font-style: normal;
   font-variant-caps: normal;
   font-weight: 400;
@@ -759,4 +759,9 @@ form#login-form input[type=text] {
     height: 40px;
     background-color: var(--clr-blue);
     border: none;
+    margin-top: 10px;
+    font-family: "proxima-nova", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    color: var(--clr-lightBlue);
   }
