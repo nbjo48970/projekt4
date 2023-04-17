@@ -152,10 +152,11 @@ body {
 
 .bot-nav-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 10px 0 26px 0;
     background: var(--clr-lightBlue);
     border-top: solid 2px #97c4ca;
+    margin: 0 1em;
 }
 
 .bot-nav-container a {
@@ -427,9 +428,7 @@ body {
 }
 
 .forenings-container hr {
-    display: grid;
-    height: 2px;
-    background-color: var(--clr-greyBlue);
+    border: 1px solid #97c4ca;
 }
 
 .forening-info {
