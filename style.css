@@ -82,7 +82,9 @@ body {
 .nav-border {
   border-bottom: solid 1px;
   padding-bottom: .5em;
+  margin: 0 2em;
 }
+
 
 .back-button {
     border: none;
@@ -806,11 +808,16 @@ form#login-form input[type=password] {
     color: black;
     font-style: bold;
     font-weight: 700;
+    font-size: 1.25em;
     text-align: center;
-    padding: 14px;
+    padding: 14px 14px 0 14px;
     text-decoration: none;
   }
 
   filter a:hover {
     background-color: #777;
+  }
+
+  .mager {
+    margin-top: 1rem;
   }
