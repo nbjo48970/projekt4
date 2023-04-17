@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-  <title>UCL Events</title>
+  <title>Login</title>
 </head>
 <body>
 
@@ -17,19 +17,16 @@
       <div class="logo-container">
         <img id="UCL-logo" src="img/UCLeventslogo.png" alt="">
       </div>
-      <!-- <input class="input-email" type="text" placeholder="email">
-      <input class="input-password" type="text" placeholder="password"> -->
-      <section class="sec">
-          <div class="news">
-            <h5>Login</h5>
-            <form name="form1" class="example" action="#">
+
+      <section id="login">
+            <form name="form1" id="login-form" action="#">
               <span id="email-error"></span> <br>
               <input id ="email-input" type="text" placeholder="Indtast e-mailadresse" name="text1"> <br>
               <input id ="password-input" type="text" placeholder="Indtast kodeord" name="text2"> <br>
-              <button type="submit" onclick="return ValidateEmail(document.form1.text1)"><i class="fa-solid fa-chevron-right"></i></i></button>
+              <button id="button-login"type="submit" onclick="return ValidateEmail(document.form1.text1)"></button>
             </form>
       </section>
-    </div>
+
   </div>
 </div>
 </body>
