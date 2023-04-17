@@ -55,7 +55,7 @@ body {
 }
 
 .input-search {
-    background: url("img/search.png") no-repeat right 14px top 9px;
+    background: url("img/search.png") no-repeat right 10px top 5px;
     background-size: 30px;
     width: 100%;
     box-sizing: border-box;
@@ -63,7 +63,7 @@ body {
     border-radius: 50vh;
     font-size: 16px;
     background-color: var(--clr-white);
-    padding: 12px 40px 12px 20px;
+    padding: 8px 40px 8px 20px;
     font-family: var(--ff-primary);
 }
 
@@ -151,14 +151,15 @@ body {
 .bot-nav-container {
     display: flex;
     justify-content: space-evenly;
-    padding: 10px 0 6px 0;
+    padding: 10px 0 26px 0;
     background: var(--clr-lightBlue);
     border-top: solid 2px #97c4ca;
 }
 
 .bot-nav-container a {
-    float: left;
-    display: block;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     color: var(--clr-darkBlue);
     text-decoration: none;
     font-size: 17px;
@@ -171,6 +172,8 @@ body {
 }
 
 .bot-nav-container h4 {
+    position: absolute;
+    top: 61px;
     font-size: 0.75em;
     font-weight: 600;
     text-align: center;
@@ -684,7 +687,7 @@ body {
 
 
 .input-search-settings {
-    background: url("img/search.png") no-repeat right 14px top 9px;
+    background: url("img/search.png") no-repeat right 10px top 5px;
     background-size: 30px;
     width: 100%;
     display: inline-block;
@@ -694,7 +697,7 @@ body {
     border-radius: 50vh;
     font-size: 16px;
     background-color: var(--clr-white);
-    padding: 12px 30px 12px 20px;
+    padding: 8px 30px 8px 20px;
     font-family: var(--ff-primary);
     margin-top: 2rem;
 }
