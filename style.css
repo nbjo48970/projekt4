@@ -354,6 +354,11 @@ body {
     grid-row: 1;
 }
 
+.forenings-info a {
+    text-decoration: none;
+    color: var(--clr-darkBlue);
+}
+
 .forenings-info p {
     margin-bottom: 8px;
 }
@@ -369,10 +374,10 @@ body {
 }
 
 .member-button a {
-    background-color: var(--clr-darkBlue);
+    background-color: var(--clr-blue);
     width: 100%;
     text-decoration: none;
-    color: var(--clr-white);
+    color: var(--clr-lightBlue);
     border-radius: 4px;
 }
 
@@ -381,6 +386,8 @@ body {
     justify-content: center;
     margin: 0px;
     padding: 5px 0px;
+    font-weight: 700;
+
 }
 
 .forening hr {
