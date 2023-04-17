@@ -11,77 +11,26 @@
   <title>UCL Events</title>
 </head>
 <body>
-  <header class="top-nav">
-    <div class="top-nav-container top-nav-home">
-      <a href="profile.html" class="profile-button">
-        <img src="img/profile.png" alt="profile icon">
-      </a>
-    </div>
-  </header>
+
   <div class="main-container">
-    
     <div class="index-container">
       <div class="logo-container">
         <img id="UCL-logo" src="img/UCLeventslogo.png" alt="">
       </div>
-      <input class="input-search" type="text" placeholder="Søg">
-
-      <ul class="home-nav-container">
-        <!-- <li class="home-nav"><a href="#">
-          <img src="img/feed.png" alt="feed">
-        </a></li> -->
-        <li class="home-nav">
-          <a href="forening-browsing.html">
-            <img src="img/associationn.png" alt="">
-            <h4>Foreninger</h4></a>
-        </li>
-        <li class="home-nav">
-          <a href="">
-            <img src="img/event.png" alt="">
-            <h4>Events</h4></a>
-        </li>
-        <!-- <li class="home-nav"><a href="#">
-          <img src="img/association.png" alt="association">
-        </a></li>
-        <li class="home-nav"><a href="#">
-          <img src="img/event.png" alt="events">
-        </a></li> -->
-        <!-- <li class="home-nav"><a href="#">
-          <img src="img/calender.png" alt="calender">
-        </a></li> -->
-      </ul>
-      <section id="hero">
-        <h2>Udvalgt til dig</h2>
+      <!-- <input class="input-email" type="text" placeholder="email">
+      <input class="input-password" type="text" placeholder="password"> -->
+      <section class="sec">
+          <div class="news">
+            <h5>Login</h5>
+            <form name="form1" class="example" action="#">
+              <span id="email-error"></span> <br>
+              <input id ="email-input" type="text" placeholder="Indtast e-mailadresse" name="text1"> <br>
+              <input id ="password-input" type="text" placeholder="Indtast kodeord" name="text2"> <br>
+              <button type="submit" onclick="return ValidateEmail(document.form1.text1)"><i class="fa-solid fa-chevron-right"></i></i></button>
+            </form>
       </section>
     </div>
-
-
-    <nav class="bot-nav">
-      <ul class="bot-nav-container">
-        <li>
-          <a href="index.html">
-            <img src="img/home_a.png" alt="">
-            <h4>Home</h4></a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="img/feed.png" alt="">
-            <h4>Feed</h4></a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="img/discover.png" alt="">
-            <h4>Explore</h4></a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="img/calender.png" alt="">
-            <h4>Kalender</h4></a>
-        </li>
-      </ul>
-    </nav>
   </div>
+</div>
 </body>
 </html>
-
-
