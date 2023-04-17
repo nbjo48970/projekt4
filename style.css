@@ -350,12 +350,18 @@ body {
 
 .forening img {
     display: grid;
-    width: 100%;
+    width: 90%;
+    border-radius: 10px;
 }
 
 .forenings-info {
     grid-column: 2;
     grid-row: 1;
+}
+
+.forenings-info a {
+    text-decoration: none;
+    color: var(--clr-darkBlue);
 }
 
 .forenings-info p {
@@ -530,6 +536,11 @@ body {
     border-radius: 15px;
 }
 
+.events a {
+    text-decoration: none;
+    color: var(--clr-darkBlue);
+}
+
 .events-img {
     display: grid;
     justify-content: center;
@@ -576,11 +587,15 @@ body {
     margin-top: 20px;
 }
 
+.events-buttons a {
+    color: var(--clr-darkLightBlue);
+}
+
 .events-cta-button {
     display: flex;
     justify-content: center;
     background-color: var(--clr-darkBlue);
-    color: var(--clr-white);
+    color: var(--clr-lightBlue);
     text-decoration: none;
     border: 4px;
     border-color: #003037;
