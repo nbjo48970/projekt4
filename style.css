@@ -350,7 +350,6 @@ body {
 }
 
 .forening img {
-    display: grid;
     width: 90%;
     border-radius: 10px;
 }
@@ -414,13 +413,11 @@ body {
 }
 
 .forening-top-img {
-    display: grid;
     justify-content: center;
     margin-bottom: 20px;
 }
 
 .forening-top-img img {
-    display: grid;
     grid-column: 1 / 4;
     width: 100%;
     height: auto;
@@ -482,15 +479,15 @@ body {
     display: grid;
 }
 
-#ass-img{
+/*#ass-img{
     width: 60%;
     height: auto;
-    display: grid;
+    display: flex;
     justify-content: center;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-}
+}*/
 
 .event-text h3 {
     margin-bottom: 20px;
