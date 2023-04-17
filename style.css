@@ -1,7 +1,7 @@
 :root {
     --clr-pink: #f1c9c0;
     --clr-lightBlue: #e4f1f0;
-    --clr-darkLightBlue: #D4E8E6;
+    --clr-darkLightBlue: #c8e2df;
     --clr-yellow: #fbe355;
     --clr-blue: #00454e;
     --clr-darkBlue: #003037;
@@ -520,10 +520,11 @@ body {
     grid-row: 2 / 3;
     grid-column: 2 / 3;
     gap: 30px;
+    margin-top: 30px;
 }
 
 .events {
-    box-shadow: 2px 2px 10px var(--clr-greyBlue);
+    box-shadow: 0 2px 8px var(--clr-greyBlue);
     border-radius: 15px;
 }
 
@@ -719,14 +720,21 @@ body {
 .settings {
   text-decoration: none;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin-top: 1rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 
-.settings li {
-  padding: .4rem;
+.settings ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 1em;
 }
+
+/* .settings li {
+  padding: .4rem;
+} */
 
 form#login-form input[type=text] {
   font-size: 17px;
