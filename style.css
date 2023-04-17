@@ -768,7 +768,7 @@ form#login-form input[type=text] {
   font-variant-caps: normal;
   font-weight: 400;
 }
-form#login-form input[type=password] {
+form#login-form input[type=password]{
   font-size: 17px;
   float: left;
   width: 100%;

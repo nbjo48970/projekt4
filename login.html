@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://use.typekit.net/ykg6wsg.css">
+  <script src="loginvalidation.js" defer></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -19,12 +20,12 @@
       </div>
 
       <section id="login">
-            <form name="form1" id="login-form" action="#">
+            <form name="lnform" id="login-form" action="#">
               <span id="email-error"></span> <br>
               <input id ="email-input" type="text" placeholder="Indtast e-mailadresse" name="text1"> <br>
               <input id ="password-input" type="password" placeholder="Indtast kodeord" name="text2"> <br>
               <a>Glemt login?</a>
-              <button id="button-login"type="submit" onclick="return ValidateEmail(document.form1.text1)">Forsæt</button>
+              <button id="button-login"type="submit" onclick="return ValidateEmail(document.lnform.text1)">Forsæt</button>
             </form>
       </section>
 
