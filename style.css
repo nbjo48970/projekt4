@@ -736,6 +736,7 @@ form#login-form input[type=text] {
   background: rgb(249, 247, 240);
   padding-left: 30px;
   border: solid 1px var(--clr-lightBlue);
+  border-radius: 4px;
   font-family: "proxima-nova", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -749,6 +750,11 @@ form#login-form input[type=text] {
     align-items: center;
     flex-direction: column;
   }
+  #login-form a{
+    color: var(--clr-blue);
+    cursor: pointer;
+    text-decoration: underline;
+}
 
   #password-input{
     margin-top: 10px;
@@ -761,7 +767,7 @@ form#login-form input[type=text] {
     height: 40px;
     background-color: var(--clr-blue);
     border: none;
-    margin-top: 10px;
+    margin-top: 15px;
     font-family: "proxima-nova", sans-serif;
     font-size: 16px;
     font-style: normal;
