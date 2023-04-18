@@ -554,6 +554,22 @@ body {
     height: auto;
 }
 
+.location {
+    display: flex;
+    flex-direction: row;
+}
+
+.location p {
+    display: flex;
+    align-items: flex-end;
+}
+
+.location img {
+    height: 25px;
+    width: auto;
+    margin-left: 2px;
+}
+
 .deltag-buttons {
     display: flex;
     flex-direction: row;
