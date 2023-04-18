@@ -8,6 +8,7 @@
     --clr-black: #171717;
     --clr-white: #f6f6f6;
     --clr-greyBlue: #336A71;
+    --clr-lightTurquoise: #D4E8E6;
 
     --ff-primary: 'proxima-nova', sans-serif;
     --ff-logo: 'Arvo', serif;
@@ -541,9 +542,10 @@ body {
 /*Event page*/
 
 .event-top-img {
-    display: flex;
-    justify-content: center;
+    grid-column: span 4;
     margin-bottom: 20px;
+    margin-top: 40px;
+
 }
 
 .event-top-img img {
@@ -591,6 +593,33 @@ body {
 
 .event-text {
     margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.opslag {
+    background-color: var(--clr-lightTurquoise);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 20px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.opslag img {
+    width: auto;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.say-something {
+    background-color: var(--clr-lightTurquoise);
+    border-style: none;
+    border: solid 2px #528387;
+    border-radius: 100px;
+    margin: 20px 10px;
+    padding: 10px 0px 10px 25px;
+    width: 100%;
 }
 
 /*
