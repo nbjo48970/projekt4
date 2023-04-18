@@ -31,11 +31,13 @@ function ValidateLogin(input)
     return false;
   }
 }
-let regUsers = ["peter@mail.com", "xander@mail.com", "nicoline@mail.com", "marcus@mail.com"];
+let regUsers = [["peter@mail.com","hest"], ["xander@mail.com","hest"], ["Niko@mail.com","hest"], ["Markus@mail.com","hest"]];
 function inArray(inVal){
-    for( var i=0, len=regUsers.length; i < len; i++){
-        if (regUsers[i] == inVal) return true;
+    let passwordInput = document.getElementById("password-input").value;
+    for( let i=0, len=regUsers.length; i < len; i++){
+        if (regUsers[i][0] == inVal && regUsers[i][1]==passwordInput) return true;
     }
+    console.log(passwordInput);
     return false;
 }
 //E-mailvalidering slut - Nicoline//
