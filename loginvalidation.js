@@ -11,6 +11,7 @@ function ValidateLogin(input)
     emailError.innerHTML = "PERFEKT";
     emailError.style.color = "rgb(80, 65, 57)";
     formInput.style.borderColor = "#e4f1f0";
+    location.href='index.html'
     return false;
   }
 
@@ -20,7 +21,6 @@ function ValidateLogin(input)
     emailError.style.color = "red";
     formInput.style.borderColor = "red";
     document.lnform.inputem.focus();
-    // document.getElementById("button-login").setAttribute("disabled","");
     return false;
   }
     else {
@@ -28,7 +28,6 @@ function ValidateLogin(input)
     emailError.style.color = "red";
     formInput.style.borderColor = "red";
     document.lnform.inputem.focus();
-    // document.getElementById("button-login").setAttribute("disabled","");
     return false;
   }
 }
