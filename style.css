@@ -799,6 +799,12 @@ form#login-form input[type=password]{
     color: var(--clr-lightBlue);
   }
 
+#email-error{
+  position: relative;
+  float: left;
+  text-align: left;
+}
+
 
   .feed-container {
       display: grid;
