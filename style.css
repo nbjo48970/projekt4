@@ -612,6 +612,12 @@ body {
     margin-bottom: 20px;
 }
 
+.opslag-title h2 {
+    color: #000;
+    opacity: 53%;
+    margin-bottom: 10px;
+}
+
 .opslag {
     background-color: var(--clr-lightTurquoise);
     display: flex;
