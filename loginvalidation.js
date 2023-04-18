@@ -8,7 +8,7 @@ function ValidateLogin(input)
 
 
   if (inArray(input.value)) {
-    emailError.innerHTML = "PERFEKT";
+    emailError.innerHTML = "";
     emailError.style.color = "rgb(80, 65, 57)";
     formInput.style.borderColor = "#e4f1f0";
     location.href='index.html'
@@ -31,13 +31,12 @@ function ValidateLogin(input)
     return false;
   }
 }
-let regUsers = [["peter@mail.com","hest"], ["xander@mail.com","hest"], ["Niko@mail.com","hest"], ["Markus@mail.com","hest"]];
+let regUsers = [["peter@mail.com","kat"], ["xander@mail.com","hund"], ["nicoline@mail.com","hest"], ["marcus@mail.com","hamster"]];
 function inArray(inVal){
     let passwordInput = document.getElementById("password-input").value;
     for( let i=0, len=regUsers.length; i < len; i++){
         if (regUsers[i][0] == inVal && regUsers[i][1]==passwordInput) return true;
     }
-    console.log(passwordInput);
     return false;
 }
 //E-mailvalidering slut - Nicoline//
