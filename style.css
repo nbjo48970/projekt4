@@ -277,12 +277,12 @@ body {
 
 .forening {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 1rem;
 }
 
-.forening img {
-    width: 90%;
-    border-radius: 10px;
+.forening-image {
+    background-image: url(img/pictures/boardgame3.jpg);
+    width: 6rem;
 }
 
 .forenings-info {
