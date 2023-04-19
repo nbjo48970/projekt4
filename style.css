@@ -749,7 +749,7 @@ body {
     color: #000;
     opacity: 53%;
     margin-bottom: 5px;
-    margin-top: 5px;
+    margin-top: ;
 }
 
 .opslag {
@@ -929,7 +929,7 @@ form#login-form input[type=password]{
     display: none;
   }
 
-  .filter a {
+  .filter li {
     display: inline-block;
     color: black;
     font-style: bold;
@@ -937,10 +937,14 @@ form#login-form input[type=password]{
     font-size: 1.25em;
     text-align: center;
     padding: 14px 14px 0 14px;
-    text-decoration: none;
   }
 
-  filter a:hover {
+  .filter a {
+    text-decoration: none;
+    color: var(--clr-darkBlue);
+  }
+
+  filter li:hover {
     background-color: #777;
   }
 
