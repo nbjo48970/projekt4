@@ -9,14 +9,12 @@ function ValidateLogin(input)
 
   if (inArray(input.value)) {
     emailError.innerHTML = "";
-    emailError.style.color = "rgb(80, 65, 57)";
     formInput.style.borderColor = "#e4f1f0";
     location.href='index.html'
     return false;
   }
 
   if (input.value.match(validRegex)){
-    formInput.style.borderColor = "#e4f1f0";
     emailError.innerHTML = "Bruger eksisterer ikke";
     emailError.style.color = "red";
     formInput.style.borderColor = "red";
