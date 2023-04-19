@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <script src="imageslides.js" defer></script>
   <title>UCL Events</title>
 </head>
 <body>
@@ -18,15 +19,17 @@
       </a>
     </div>
   </header>
+  <div id="bubble"></div>
   <div class="main-container">
 
     <div class="index-container">
       <div class="logo-container">
-        <img id="UCL-logo" src="img/UCLeventslogo.png" alt="">
+        <img id="UCL-logo" src="img/UCLeventslogo2.png" alt="">
       </div>
       <input class="input-search" type="text" placeholder="Søg">
+      
 
-      <ul class="home-nav-container">
+      <!-- <ul class="home-nav-container"> -->
         <!-- <li class="home-nav"><a href="#">
           <img src="img/feed.png" alt="feed">
         </a></li> -->
@@ -49,9 +52,47 @@
         <!-- <li class="home-nav"><a href="#">
           <img src="img/calender.png" alt="calender">
         </a></li> -->
-      </ul>
+      <!-- </ul> -->
       <section id="hero">
         <h2>Udvalgt til dig</h2>
+        <div class="recommended-container">
+
+          <div class="hero-slides fade">
+            <div class="img-overlay"></div>
+            <img src="img/pictures/yoga.jpg" alt="folk som dyrker yoga">
+            <div class="slide-text">
+              <h2>Fælles Yoga</h2>
+              <p>Velkommen til Fælles Yoga på UCL! Vi arrangerer ugentlige sessions og tilbyder yoga-undervisning til studerende og ansatte på skolen med henblik på at fremme sundhed, trivsel og stressreduktion i vores fællesskab. Vores dygtige instruktører tilbyder online undervisning samt undervisning i lokaler, som skolen stiller til rådighed. Vi samarbejder også med skolens sundhedscenter for at tilbyde specialiserede yogaøvelser til studerende og ansatte med specifikke sundhedsmæssige udfordringer. </p>
+            </div>
+          </div>
+
+          <div class="hero-slides fade">
+            <div class="img-overlay"></div>
+            <img src="img/pictures/boardgame2.jpg" alt="close up af et bræstpil">
+            <div class="slide-text">
+              <h2>Brætspilscafé</h2>
+              <p>En brætspilscafé på UCL skole er en hyggelig og afslappet mødested for studerende og andre besøgende, der ønsker at spille brætspil og nyde en god kop kaffe eller te. Caféen tilbyder et bredt udvalg af brætspil, fra klassikere som Monopoly og Scrabble til mere moderne spil som Settlers of Catan og Ticket to Ride. Der er også mulighed for at lære nye spil og få hjælp fra personalet, hvis der er brug for det. Caféen er en social og sjov oplevelse for alle, der elsker brætspil og ønsker at møde nye mennesker på en afslappet og hyggelig måde.</p>
+            </div>
+          </div>
+
+          <div class="hero-slides fade">
+            <div class="img-overlay"></div>
+            <img src="img/pictures/beer1.jpg" alt="beerbox logo">
+            <div class="slide-text">
+              <h2>Fredagsbar</h2>
+              <p>BeerBox er navnet på Seebladsgades fredagsbar. BeerBox har hjemme i en stor ekstern bygning placeret strategisk godt imellem UCL og Storms Pakhus. Her arrangeres der Beerpong turneringer, Halloween, brætspilscaféer, der rafles med terninger og en masse andre sjove aktiviteter.</p>
+            </div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div class="dots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
       </section>
     </div>
 
