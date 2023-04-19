@@ -9,6 +9,7 @@
     --clr-white: #f6f6f6;
     --clr-greyBlue: #336A71;
     --clr-midBlue: #b5d3d7;
+    --clr-lightTurquoise: #D4E8E6;
 
     --ff-primary: 'proxima-nova', sans-serif;
     --ff-logo: 'Arvo', serif;
@@ -430,75 +431,6 @@ body {
 
 
 /*Forening-browsing*/
-/*
-.forenings-container {
-    display: grid;
-    grid-row: 2 / 3;
-    grid-column: 2 / 3;
-}
-
-.forening {
-    display: grid;
-    color: var(--clr-darkBlue);
-}
-
-.forening-img {
-    display: grid;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.forening-img img {
-    display: grid;
-    width: 100%;
-    height: auto;
-}
-
-.forening-text {
-    display: grid;
-    margin-bottom: 20px;
-}
-
-.forening-text-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-    color: #003037;
-}
-
-.forening-text h2 {
-    margin-bottom: 20px;
-}
-
-#follow {
-    margin-right: 0px;
-}
-
-.forening-read-more {
-    display: grid;
-    justify-content: center;
-}
-
-.read-more-button {
-    display: flex;
-    justify-content: center;
-    background-color: var(--clr-darkBlue);
-    color: var(--clr-white);
-    text-decoration: none;
-    border: 4px;
-    border-color: #003037;
-    padding: 10px 20px;
-    width: 150px;
-    height: 50px;
-    margin-bottom: 30px;
-}
-
-.read-more-button p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-*/
 
 .bot-margin {
     margin-bottom: 120px;
@@ -512,12 +444,12 @@ body {
 
 .forening {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 1rem;
 }
 
-.forening img {
-    width: 90%;
-    border-radius: 10px;
+.forening-image {
+    background-image: url(img/pictures/boardgame3.jpg);
+    width: 6rem;
 }
 
 .forenings-info {
@@ -570,17 +502,10 @@ body {
 
 /*Forening page*/
 
-.breadcrumbs {
-    display: grid;
-    justify-content: center;
-    color: var(--clr-darkBlue);
-    font-weight: lighter;
-    margin-bottom: 40px;
-}
-
 .forening-top-img {
-    justify-content: center;
+    grid-column: span 4;
     margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 .forening-top-img img {
@@ -589,97 +514,69 @@ body {
     height: auto;
 }
 
-.forening-title {
+.forening-title-location {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: end;
-    color: #003037;
+    margin-bottom: 10px;
 }
 
-.forenings-container hr {
-    border: 1px solid #97c4ca;
+.forening-location {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.forening-location img {
+    height: 25px;
+    width: auto;
 }
 
 .forening-info {
-    display: grid;
-    align-items: center;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 5px;
-    margin-bottom: 20px;
-}
-
-.follow-buttons {
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: space-between;
 }
 
-.follow-buttons p {
+.forening-info-text {
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 26px;
 }
 
-.follow-button {
-    background-color: #00454e;
-    border: solid 2px var(--clr-blue);
-    width: 100px;
-    height: 30px;
-    border-radius: 50px;
-    text-decoration: none;
-    margin-right: 10px;
-    color: #f6f6f6;
+.bliv-medlem {
+    max-width: 150px;
 }
 
-.ansøg-button {
-    border: solid 2px var(--clr-blue);
-    color: #00454e;
-    width: 100px;
-    height: 30px;
-    border-radius: 50px;
-    text-decoration: none;
-}
-
-.event {
-    display: grid;
-}
-
-/*#ass-img{
-    width: 60%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}*/
-
-.event-text h3 {
-    margin-bottom: 20px;
+#member {
+    margin: 0px;
 }
 
 .events-button {
-    display: grid;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.see-events-button {
     display: flex;
-    justify-content: center;
-    background-color: var(--clr-darkBlue);
-    color: var(--clr-white);
-    text-decoration: none;
-    padding: 10px 20px;
-    width: 150px;
-    height: 50px;
+    flex-direction: row;
+    width: 100%;
+    max-width: 150px;
+    height: 30px;
+    margin-bottom: 10px;
 }
 
-.see-events-button p {
+.events-button p {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
+    font-weight: 700;
+}
+
+.see-events-button {
+    background-color: var(--clr-lightBlue);
+    border: solid 3px var(--clr-blue);
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: var(--clr-blue);
+    margin-right: 10px;
 }
 
 
@@ -777,46 +674,41 @@ body {
 
 /*Event page*/
 
-.breadcrumbs {
-    display: grid;
-    justify-content: center;
-    color: var(--clr-darkBlue);
-    font-weight: lighter;
-    margin-bottom: 40px;
-}
-
 .event-top-img {
-    display: grid;
-    justify-content: center;
+    grid-column: span 4;
     margin-bottom: 20px;
+    margin-top: 40px;
+
 }
 
 .event-top-img img {
-    display: grid;
     grid-column: 1 / 4;
     width: 100%;
     height: auto;
 }
 
-.event-title {
+.location {
     display: flex;
-    justify-content: space-between;
-    align-items: end;
-    color: #003037;
+    flex-direction: row;
 }
 
-.event-info {
-    display: grid;
-    align-items: center;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 5px;
-    margin-bottom: 20px;
+.location p {
+    display: flex;
+    align-items: flex-end;
+}
+
+.location img {
+    height: 25px;
+    width: auto;
+    margin-left: 2px;
 }
 
 .deltag-buttons {
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    width: 100%;
+    height: 30px;
+    margin: 10px 0px;
 }
 
 .deltag-buttons p {
@@ -824,37 +716,67 @@ body {
     justify-content: center;
     align-items: center;
     height: 26px;
+    font-weight: 700;
 }
 
-.deltag-button {
+.cta-button {
     background-color: #00454e;
     border: solid 2px var(--clr-blue);
-    width: 100px;
+    width: 100%;
     height: 30px;
-    border-radius: 50px;
+    border-radius: 4px;
     text-decoration: none;
     color: #f6f6f6;
     margin-right: 10px;
 }
 
-.interest-button {
-    background-color: var(--clr-white);
-    border: solid 2px var(--clr-blue);
-    width: 100px;
-    height: 30px;
-    border-radius: 50px;
-    text-decoration: none;
-    color: var(--clr-darkBlue);
+.event-info-list {
+    margin-bottom: 10px;
 }
 
-.event {
-    display: grid;
+.event-info-list li {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 5px;
 }
 
-.event-text h3 {
+.event-text {
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
+.opslag-title h2 {
+    color: #000;
+    opacity: 53%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.opslag {
+    background-color: var(--clr-lightTurquoise);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 20px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.opslag img {
+    width: auto;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.say-something {
+    background-color: var(--clr-lightTurquoise);
+    border-style: none;
+    border: solid 2px #528387;
+    border-radius: 100px;
+    margin: 20px 10px;
+    padding: 10px 0px 10px 25px;
+    width: 100%;
+}
 
 
 
@@ -912,11 +834,9 @@ body {
 } */
 
 form#login-form input[type=text] {
-  font-size: 17px;
   float: left;
   width: 100%;
   height: 60px;
-  background: rgb(249, 247, 240);
   padding-left: 30px;
   border: solid 1px var(--clr-lightBlue);
   border-radius: 4px;
@@ -927,11 +847,9 @@ form#login-form input[type=text] {
   font-weight: 400;
 }
 form#login-form input[type=password]{
-  font-size: 17px;
   float: left;
   width: 100%;
   height: 60px;
-  background: rgb(249, 247, 240);
   padding-left: 30px;
   border: solid 1px var(--clr-lightBlue);
   border-radius: 4px;
@@ -948,6 +866,7 @@ form#login-form input[type=password]{
     align-items: center;
     flex-direction: column;
   }
+
   #login-form a{
     color: var(--clr-blue);
     cursor: pointer;
@@ -972,6 +891,26 @@ form#login-form input[type=password]{
     color: var(--clr-lightBlue);
   }
 
+  #email-error{
+    align-self: flex-start;
+    font-size: 12px;
+  }
+
+  #showpass{
+    height: 20px;
+    width: 20px;
+  }
+
+  #check p{
+    font-size: 14px;
+    color: var(--clr-blue);
+  }
+
+  #check{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+  }
 
   .feed-container {
       display: grid;
