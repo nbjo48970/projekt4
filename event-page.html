@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <script src="kommentar-js.js" defer></script>
   <link rel="stylesheet" href="https://use.typekit.net/ykg6wsg.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -74,10 +75,30 @@
       </div>
 
       <div class="opslag bot-margin">
-        <img src="img/temporary_profile.png" alt="profilbillede">
-        <input class="say-something" type="text" placeholder="Sig noget...">
+        <img src="img/temporary_profile.png" alt="">
+        <button class="say-something" id="postman" type="submit" name="button">Sig noget...</button>
       </div>
+      <div class="chat-popup" id="myForm">
+    <form class="form-container">
 
+      <!-- <label for="msg"><b>Message</b></label> -->
+      <!-- <div class="dropdown">
+    <button onclick="myDrop()" type="button" class="dropbtn">Dropdown</button>
+    <div id="myDropdown" class="dropdown-content">
+      <button type="button" name="button" id="product-button">Produkter</button>
+      <button type="button" name="button" id="brands-button">Brands</button>
+      <button type="button" name="button" id="FAQ-button">FAQ</button>
+      <button type="button" name="button" id="fragt-button">Fragt</button>
+      <button type="button" name="button" id="smiley-button">Smiley-ordning</button>
+    </div>
+  </div> -->
+      <img src="img/temporary_profile.png" class="chat-pp" alt="">
+      <textarea id="support" placeholder="Type message.." name="msg"></textarea>
+
+      <button type="button" class="btn" id="send-it">Send</button>
+      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+  </div>
 
     </div>
 
