@@ -24,3 +24,12 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "flex";
   dots[slideIndex-1].className += " active";
 }
+
+let slideArray = ["Fælles Yoga", "Brætspilscafé", "Fredagsbar"]
+let slideName = document.getElementById("slide-text")
+
+for (let i = 0; i < slideArray.length; i++) {
+    let h = document.createElement("h2");
+    h.innerText = slideArray[i];
+    slideName.appendChild(h);
+}
