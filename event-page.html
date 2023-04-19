@@ -74,7 +74,7 @@
         <h2>Opslag</h2>
       </div>
 
-      <div class="opslag bot-margin">
+      <div class="opslag bot-margin2">
         <img src="img/temporary_profile.png" alt="">
         <button class="say-something" id="postman" type="submit" name="button">Sig noget...</button>
       </div>
@@ -93,14 +93,22 @@
     </div>
   </div> -->
       <img src="img/temporary_profile.png" class="chat-pp" alt="">
-      <textarea id="support" placeholder="Type message.." name="msg"></textarea>
+      <textarea id="support" placeholder="Type message.." name="inputem"></textarea>
 
       <button type="button" class="btn" id="send-it">Send</button>
       <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+      <span id="chat-error"></span> <br>
     </form>
   </div>
+  <div class="opslag" id="modtaget">
+    <img src="img/temporary_profile.png" alt="">
+    <p id="replace"></p>
+  </div>
+  <div class="empty bot-margin">
 
+  </div>
     </div>
+
 
     <nav class="bot-nav">
       <ul class="bot-nav-container">
