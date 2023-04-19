@@ -749,7 +749,6 @@ body {
     color: #000;
     opacity: 53%;
     margin-bottom: 5px;
-    margin-top: ;
 }
 
 .opslag {
@@ -776,6 +775,7 @@ body {
     margin: 20px 10px;
     padding: 10px 0px 10px 25px;
     width: 100%;
+    text-align: left;
 }
 
 
@@ -950,4 +950,108 @@ form#login-form input[type=password]{
 
   .mager {
     margin-top: 1rem;
+  }
+
+  .form-container {
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: -1rem;
+    margin-right: -1rem;
+    margin-left: -1rem;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--clr-lightTurquoise);
+  }
+
+  .form-container textarea {
+    width: 100%;
+    padding: 2rem;
+    padding-top: 4rem;
+    margin: 2rem 0 22px 0;
+    border: none;
+    background: var(--clr-darkLightBlue);
+    resize: none;
+    min-height: 300px;
+  }
+
+  .chat-pp {
+    position: absolute;
+    height: 3rem;
+    width: 3rem;
+    top: 2.5rem;
+    left: 1rem;
+  }
+
+  .form-container textarea:focus {
+    background-color: #b3d2da;
+    outline: none;
+  }
+
+  .form-container .btn {
+    display: flex;
+    justify-content: center;
+    background-color: var(--clr-darkBlue);
+    color: var(--clr-lightBlue);
+    text-decoration: none;
+    border: 4px;
+    border-radius: .25rem;
+    border-color: #003037;
+    padding: 10px 20px;
+    width: 10rem;
+    height: 3rem;
+    cursor: pointer;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+
+  .form-container .cancel {
+    background-color: var(--clr-greyBlue);
+  }
+
+  #myForm {
+    display: none;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 1rem;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+
+  /* .dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+  }
+
+  .dropdown {
+    float: right;
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 6.5rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+ */
+
+
+
+  .lookatmenow {
+    display: flex;
+    flex-direction: column;
   }
