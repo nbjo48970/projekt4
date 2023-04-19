@@ -424,11 +424,20 @@ body {
 }
 
 .profile-ass-ul img, .profile-eve-ul img {
-    max-height: 40px;
+    max-height: 45px;
 }
 
+.profile-ass img{
+  width: 45px;
+  height: 45px;
+  border-radius: 4px;
+}
 
-
+.profile-eve img{
+  width: 45px;
+  height: 45px;
+  border-radius: 4px;
+}
 
 /*Forening-browsing*/
 
