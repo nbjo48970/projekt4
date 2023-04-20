@@ -440,6 +440,10 @@ body {
     margin-bottom: 120px;
 }
 
+.bot-margin2 {
+    margin-bottom: 2rem;
+}
+
 .forenings-container {
     display: grid;
     grid-row: 2 / 3;
@@ -989,7 +993,10 @@ form#login-form input[type=password]{
     font-weight: 700;
     font-size: 1.25em;
     text-align: center;
-    padding: 14px 14px 0 14px;
+    padding: 7px 14px 7px 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 8px;
   }
 
   .filter a {
@@ -1009,7 +1016,7 @@ form#login-form input[type=password]{
     width: 100vw;
     height: 100vh;
     margin-bottom: -1rem;
-    margin-right: -1rem;
+    margin-right: -18px;
     margin-left: -1rem;
     justify-content: flex-start;
     display: flex;
@@ -1022,7 +1029,7 @@ form#login-form input[type=password]{
     width: 100%;
     padding: 2rem;
     padding-top: 4rem;
-    margin: 2rem 0 22px 0;
+    margin: 2rem 1px 21px 0;
     border: none;
     background: var(--clr-darkLightBlue);
     resize: none;
@@ -1045,6 +1052,7 @@ form#login-form input[type=password]{
   .form-container .btn {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: var(--clr-darkBlue);
     color: var(--clr-lightBlue);
     text-decoration: none;
@@ -1056,7 +1064,6 @@ form#login-form input[type=password]{
     height: 3rem;
     cursor: pointer;
     margin-bottom:10px;
-    opacity: 0.8;
   }
 
   .form-container .cancel {
@@ -1073,35 +1080,17 @@ form#login-form input[type=password]{
     z-index: 9;
   }
 
-  /* .dropbtn {
-    background-color: #04AA6D;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-
-  .dropbtn:hover, .dropbtn:focus {
-    background-color: #3e8e41;
-  }
-
-  .dropdown {
-    float: right;
-    position: relative;
-    display: inline-block;
-  }
-
-  .dropdown-content {
+  #modtaget {
     display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 6.5rem;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    padding-top: 18px;
+    padding-bottom: 18px;
   }
- */
 
+  .empty {
+    width: 100%;
+    background-color: var(--clr-lightTurquoise);
+    position: relative;
+  }
 
 
   .lookatmenow {
