@@ -376,24 +376,25 @@ body {
     top: 50%;
     width: auto;
     margin-top: -22px;
-    padding: 14px 14px 14px 10px;
-    color: var(--clr-blue);
+    padding: 14px 14px 14px 7px;
+    color: var(--clr-darkBlue);
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
     border-radius: 0 50vh 50vh 0;
     user-select: none;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .next {
     right: 0;
     border-radius: 50vh 0 0 50vh;
-    padding: 14px 10px 14px 14px;
+    padding: 14px 7px 14px 14px;
 }
 
 .prev:hover,
 .next:hover {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .dots {
@@ -813,7 +814,7 @@ h2 {
 }
 
 .events-info {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     padding: 15px 0px;
 }
 
