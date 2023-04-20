@@ -160,7 +160,7 @@ body {
 
 .nav-border {
     border-top: solid 2px #97c4ca;
-    padding: 20px 0;
+    padding: 20px 0 0 0;
 }
 
 
@@ -471,6 +471,10 @@ body {
     position: absolute;
 }
 
+h2 {
+    color: var(--clr-darkBlue);
+}
+
 .profile-ass {
     grid-row: 2 / 3;
     margin: 20px 0 50px 0;
@@ -479,21 +483,18 @@ body {
 .profile-ass h3,
 .profile-eve h3 {
     margin: 0 0 30px 0;
+    color: var(--clr-darkBlue);
 }
 
-.profile-ass-ul {
+.profile-ass-ul, .profile-eve-ul {
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .profile-eve {
     grid-row: 3 / 4;
     margin: 20px 0 50px 0;
-}
-
-.profile-eve-ul {
-    display: flex;
-    justify-content: space-between;
 }
 
 .profile-ass h4,
@@ -502,7 +503,8 @@ body {
     font-weight: 600;
     text-align: center;
     position: absolute;
-    margin-top: 44px;
+    margin-top: 90px;
+    color: var(--clr-darkBlue);
 }
 
 .profile-ass-ul li,
@@ -514,13 +516,13 @@ body {
 
 .profile-ass-ul img,
 .profile-eve-ul img {
-    max-height: 40px;
+    object-fit: cover;
+    max-height: 82px;
+    aspect-ratio: 1;
+    border-radius: 10px;
 }
 
-.profile-ass-ul img,
-.profile-eve-ul img {
-    max-height: 40px;
-}
+
 
 
 
@@ -756,7 +758,7 @@ body {
     display: grid;
     grid-row: 2 / 3;
     grid-column: 2 / 3;
-    gap: 15px;
+    gap: 25px;
     margin-top: 22px;
 }
 
@@ -806,7 +808,7 @@ body {
 
 .events-info {
     margin-bottom: 20px;
-    padding: 10px 0px;
+    padding: 15px 0px;
 }
 
 .events-buttons {
@@ -1024,9 +1026,12 @@ body {
     margin-top: 1em;
 }
 
-/* .settings li {
-  padding: .4rem;
-} */
+.settings ul>li, .settings ul>a {
+    cursor: pointer;
+    color: var(--clr-darkBlue);
+    text-decoration: none;
+}
+
 
 form#login-form input[type=text] {
     float: left;
