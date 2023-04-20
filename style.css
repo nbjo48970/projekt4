@@ -424,20 +424,11 @@ body {
 }
 
 .profile-ass-ul img, .profile-eve-ul img {
-    max-height: 45px;
+    max-height: 40px;
 }
 
-.profile-ass img{
-  width: 45px;
-  height: 45px;
-  border-radius: 4px;
-}
 
-.profile-eve img{
-  width: 45px;
-  height: 45px;
-  border-radius: 4px;
-}
+
 
 /*Forening-browsing*/
 
@@ -957,7 +948,10 @@ form#login-form input[type=password]{
     font-weight: 700;
     font-size: 1.25em;
     text-align: center;
-    padding: 14px 14px 0 14px;
+    padding: 7px 14px 7px 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 8px;
   }
 
   .filter a {
