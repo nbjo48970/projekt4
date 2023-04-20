@@ -16,7 +16,9 @@
 
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -157,8 +159,8 @@ body {
 }
 
 .nav-border {
-  border-top: solid 2px #97c4ca;
-  padding: 20px 0;
+    border-top: solid 2px #97c4ca;
+    padding: 20px 0;
 }
 
 
@@ -367,19 +369,20 @@ body {
   display: none;
 } */
 
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 14px 14px 14px 10px;
-  color: var(--clr-blue);
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 50vh 50vh 0;
-  user-select: none;
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 14px 14px 14px 10px;
+    color: var(--clr-blue);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 50vh 50vh 0;
+    user-select: none;
 }
 
 .next {
@@ -388,8 +391,9 @@ body {
     padding: 14px 10px 14px 14px;
 }
 
-.prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.2);
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .dots {
@@ -410,18 +414,24 @@ body {
     transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: var(--clr-blue);
+.active,
+.dot:hover {
+    background-color: var(--clr-blue);
 }
 
 .fade {
-  animation-name: fade;
-  animation-duration: 500ms;
+    animation-name: fade;
+    animation-duration: 500ms;
 }
 
 @keyframes fade {
-  from {opacity: .7}
-  to {opacity: 1}
+    from {
+        opacity: .7
+    }
+
+    to {
+        opacity: 1
+    }
 }
 
 
@@ -466,7 +476,8 @@ body {
     margin: 20px 0 50px 0;
 }
 
-.profile-ass h3, .profile-eve h3 {
+.profile-ass h3,
+.profile-eve h3 {
     margin: 0 0 30px 0;
 }
 
@@ -485,7 +496,8 @@ body {
     justify-content: space-between;
 }
 
-.profile-ass h4, .profile-eve h4 {
+.profile-ass h4,
+.profile-eve h4 {
     font-size: 0.75em;
     font-weight: 600;
     text-align: center;
@@ -493,17 +505,20 @@ body {
     margin-top: 44px;
 }
 
-.profile-ass-ul li, .profile-eve-ul li {
+.profile-ass-ul li,
+.profile-eve-ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.profile-ass-ul img, .profile-eve-ul img {
+.profile-ass-ul img,
+.profile-eve-ul img {
     max-height: 40px;
 }
 
-.profile-ass-ul img, .profile-eve-ul img {
+.profile-ass-ul img,
+.profile-eve-ul img {
     max-height: 40px;
 }
 
@@ -651,6 +666,7 @@ body {
         grid-template-columns: 10em 1fr 10em;
         display: grid;
     }
+
     .forening-top-img img {
         grid-column: 2/3;
     }
@@ -833,7 +849,7 @@ body {
     grid-column: span 4;
     margin-bottom: 20px;
     margin-top: 16px;
-    
+
 }
 
 .event-top-img img {
@@ -847,6 +863,7 @@ body {
         grid-template-columns: 10em 1fr 10em;
         display: grid;
     }
+
     .event-top-img img {
         grid-column: 2/3;
     }
@@ -993,11 +1010,11 @@ body {
 }
 
 .settings {
-  text-decoration: none;
-  list-style: none;
-  font-size: 1.25rem;
-  margin-top: 1rem;
-  font-weight: 700;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    font-weight: 700;
 }
 
 .settings ul {
@@ -1012,50 +1029,51 @@ body {
 } */
 
 form#login-form input[type=text] {
-  float: left;
-  width: 100%;
-  height: 60px;
-  padding-left: 30px;
-  border: solid 1px var(--clr-lightBlue);
-  border-radius: 4px;
-  font-family: "proxima-nova", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-variant-caps: normal;
-  font-weight: 400;
-}
-form#login-form input[type=password]{
-  float: left;
-  width: 100%;
-  height: 60px;
-  padding-left: 30px;
-  border: solid 1px var(--clr-lightBlue);
-  border-radius: 4px;
-  font-family: "proxima-nova", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-variant-caps: normal;
-  font-weight: 400;
+    float: left;
+    width: 100%;
+    height: 60px;
+    padding-left: 30px;
+    border: solid 1px var(--clr-lightBlue);
+    border-radius: 4px;
+    font-family: "proxima-nova", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: 400;
 }
 
-  #login-form{
+form#login-form input[type=password] {
+    float: left;
+    width: 100%;
+    height: 60px;
+    padding-left: 30px;
+    border: solid 1px var(--clr-lightBlue);
+    border-radius: 4px;
+    font-family: "proxima-nova", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: 400;
+}
+
+#login-form {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  }
+}
 
-  #login-form a{
+#login-form a {
     color: var(--clr-blue);
     cursor: pointer;
     text-decoration: underline;
 }
 
-  #password-input{
+#password-input {
     margin-top: 10px;
-  }
+}
 
-  #button-login{
+#button-login {
     width: 200px;
     margin: auto;
     border-radius: 4px;
@@ -1067,47 +1085,48 @@ form#login-form input[type=password]{
     font-size: 16px;
     font-style: normal;
     color: var(--clr-lightBlue);
-  }
+}
 
-  #email-error{
+#email-error {
     align-self: flex-start;
     font-size: 12px;
-  }
+}
 
-  #showpass{
+#showpass {
     height: 20px;
     width: 20px;
-  }
+}
 
-  #check p{
+#check p {
     font-size: 14px;
     color: var(--clr-blue);
-  }
+}
 
-  #check{
+#check {
     display: flex;
     flex-direction: row;
     align-self: flex-start;
-  }
+}
 
-  .feed-container {
-      display: grid;
-      grid-row: 2 / 3;
-      grid-column: 2 / 3;
-  }
+.feed-container {
+    display: grid;
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
 
-  .filter {
+.filter {
     overflow: auto;
     white-space: nowrap;
-    -ms-overflow-style: none;  /* IE and Edge */
+    -ms-overflow-style: none;
+    /* IE and Edge */
     scrollbar-width: none;
-  }
+}
 
-  .filter::-webkit-scrollbar {
+.filter::-webkit-scrollbar {
     display: none;
-  }
+}
 
-  .filter li {
+.filter li {
     display: inline-block;
     color: var(--clr-darkBlue);
     font-weight: 700;
@@ -1117,22 +1136,22 @@ form#login-form input[type=password]{
     cursor: pointer;
     border-radius: 4px;
     margin-left: 8px;
-  }
+}
 
-  .filter a {
+.filter a {
     text-decoration: none;
     color: var(--clr-darkBlue);
-  }
+}
 
-  filter li:hover {
+filter li:hover {
     background-color: #777;
-  }
+}
 
-  .mager {
+.mager {
     margin-top: 1rem;
-  }
+}
 
-  .form-container {
+.form-container {
     width: 100vw;
     height: 100vh;
     margin-bottom: -1rem;
@@ -1143,9 +1162,9 @@ form#login-form input[type=password]{
     flex-direction: column;
     align-items: center;
     background-color: var(--clr-lightTurquoise);
-  }
+}
 
-  .form-container textarea {
+.form-container textarea {
     width: 100%;
     padding: 2rem;
     padding-top: 4rem;
@@ -1154,22 +1173,22 @@ form#login-form input[type=password]{
     background: var(--clr-darkLightBlue);
     resize: none;
     min-height: 300px;
-  }
+}
 
-  .chat-pp {
+.chat-pp {
     position: absolute;
     height: 3rem;
     width: 3rem;
     top: 2.5rem;
     left: 1rem;
-  }
+}
 
-  .form-container textarea:focus {
+.form-container textarea:focus {
     background-color: #b3d2da;
     outline: none;
-  }
+}
 
-  .form-container .btn {
+.form-container .btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1183,14 +1202,14 @@ form#login-form input[type=password]{
     width: 10rem;
     height: 3rem;
     cursor: pointer;
-    margin-bottom:10px;
-  }
+    margin-bottom: 10px;
+}
 
-  .form-container .cancel {
+.form-container .cancel {
     background-color: var(--clr-greyBlue);
-  }
+}
 
-  #myForm {
+#myForm {
     display: none;
     box-sizing: border-box;
     position: fixed;
@@ -1198,22 +1217,22 @@ form#login-form input[type=password]{
     right: 15px;
     border: 3px solid #f1f1f1;
     z-index: 9;
-  }
+}
 
-  #modtaget {
+#modtaget {
     display: none;
     padding-top: 18px;
     padding-bottom: 18px;
-  }
+}
 
-  .empty {
+.empty {
     width: 100%;
     background-color: var(--clr-lightTurquoise);
     position: relative;
-  }
+}
 
 
-  .lookatmenow {
+.lookatmenow {
     display: flex;
     flex-direction: column;
-  }
+}
