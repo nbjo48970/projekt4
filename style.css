@@ -486,7 +486,8 @@ h2 {
     color: var(--clr-darkBlue);
 }
 
-.profile-ass-ul, .profile-eve-ul {
+.profile-ass-ul,
+.profile-eve-ul {
     display: flex;
     justify-content: space-between;
     gap: 10px;
@@ -544,7 +545,8 @@ h2 {
     margin-bottom: 60px;
 }
 
-.forenings-container p, .forenings-container li {
+.forenings-container p,
+.forenings-container li {
     color: var(--clr-darkBlue);
 }
 
@@ -1030,7 +1032,8 @@ h2 {
     margin-top: 1em;
 }
 
-.settings ul>li, .settings ul>a {
+.settings ul>li,
+.settings ul>a {
     cursor: pointer;
     color: var(--clr-darkBlue);
     text-decoration: none;
