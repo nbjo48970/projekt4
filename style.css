@@ -262,7 +262,7 @@ body {
     position: absolute;
     background-color: var(--clr-midBlue);
     width: 130%;
-    aspect-ratio: 1;
+    aspect-ratio: 1/1;
     border-radius: 100vh;
     z-index: -420;
     overflow: hidden;
@@ -402,7 +402,7 @@ body {
     cursor: pointer;
     height: 10px;
     border: solid 2px var(--clr-blue);
-    aspect-ratio: 1;
+    aspect-ratio: 1/1;
     margin: 0 2px;
     background-color: var(--clr-darkLightBlue);
     border-radius: 50%;
@@ -536,7 +536,7 @@ body {
 
 .forening-image {
     width: 100%;
-    aspect-ratio: 1;
+    aspect-ratio: 1/1;
     background-size: cover;
     background-position: center;
     border-radius: 10px;
