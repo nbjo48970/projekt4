@@ -1,3 +1,5 @@
+// This magnificent piece of code has been developed by none other than yours truely, Xander, the great and amazing (not to mention incredible handsome), E. Kolviots!
+
 document.getElementById("postman").addEventListener("click", openForm, false);
 // document.getElementById("okay").addEventListener("click", okay, false);
 
@@ -9,28 +11,11 @@ function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
 
-// function okay() {
-//   document.getElementById("modtaget").style.display = "none";
-// }
+
 
 let chatError = document.getElementById("chat-error");
 let formInput = document.getElementById("support");
-// function myDrop() {
-//   document.getElementById("myDropdown").classList.toggle("lookatmenow");
-// }
-//
-// window.onclick = function(event) {
-//   if (!event.target.matches('.dropbtn')) {
-//     var dropdowns = document.getElementsByClassName("dropdown-content");
-//     var i;
-//     for (i = 0; i < dropdowns.length; i++) {
-//       var openDropdown = dropdowns[i];
-//       if (openDropdown.classList.contains('lookatmenow')) {
-//         openDropdown.classList.remove('lookatmenow');
-//       }
-//     }
-//   }
-// }
+
 
 document.getElementById("send-it").addEventListener("click", watchIt, false);
 
