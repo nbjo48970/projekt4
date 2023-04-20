@@ -33,7 +33,7 @@ if (inArray(document.getElementById("support").value)) {
 else {
   closeForm();
   document.getElementById("modtaget").style.display = "flex";
-  document.getElementById("replace").innerHTML = document.getElementById("support").value
+  document.getElementById("replace").innerHTML = document.getElementById("support").value;
 }
 
 }
