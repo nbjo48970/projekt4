@@ -56,7 +56,7 @@ else {
 let language = ["XD", "hest", "xD", "Niko", "Schmeter"];
 function inArray(inVal){
     for( var i=0, len=language.length; i < len; i++){
-        if (language[i] == inVal) return true;
+        if (inVal.includes(language[i])) return true;
     }
     return false;
 }
