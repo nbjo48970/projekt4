@@ -1,7 +1,7 @@
 // Filter list med active onclick - Peter Søgaard
 
-let filterListArray = ["Sport", "Spil", "Gaming", "Fest", "Motion", "Studie", "Musik", "Andet"]
-let filterListContainer = document.getElementById("filter-list-container")
+let filterListArray = ["Sport", "Spil", "Gaming", "Fest", "Motion", "Studie", "Musik", "Andet"];
+let filterListContainer = document.getElementById("filter-list-container");
 
 for (let i = 0; i < filterListArray.length; i++) {
     let li = document.createElement('li');
