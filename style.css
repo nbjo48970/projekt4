@@ -544,6 +544,10 @@ h2 {
     margin-bottom: 60px;
 }
 
+.forenings-container p, .forenings-container li {
+    color: var(--clr-darkBlue);
+}
+
 .forening {
     display: grid;
     margin-bottom: 20px;
