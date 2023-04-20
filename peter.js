@@ -1,3 +1,5 @@
+// Filter list med active onclick - Peter Søgaard
+
 let filterListArray = ["Sport", "Spil", "Gaming", "Fest", "Motion", "Studie", "Musik", "Andet"]
 let filterListContainer = document.getElementById("filter-list-container")
 
@@ -22,28 +24,3 @@ let filterListContainer = document.getElementById("filter-list-container")
       }
       
       activateLiElements();
-      
-      
-      
-      
-      
-      
-      
-      
-
-
-
-
-// function activeFilterButton() {
-
-//     let listButton = filterListContainer.getElementsByTagName('li').addEventListener("click", function())
-
-//     if (2+2==4) {
-//         listButton.innerText = "red";
-//     } else {
-        
-//     }
-
-
-// }
-
