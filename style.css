@@ -265,7 +265,7 @@ body {
     background-color: var(--clr-midBlue);
     width: 130%;
     aspect-ratio: 1/1;
-    border-radius: 100vh;
+    border-radius: 0 100vh 100vh 100vh;
     z-index: -420;
     overflow: hidden;
     left: -187px;
