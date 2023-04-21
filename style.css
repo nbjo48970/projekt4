@@ -361,7 +361,7 @@ body {
     bottom: 0px;
     overflow: hidden;
     height: 80px;
-    padding: 5px 12px;
+    padding: 5px 12px 22px 12px;
     border-radius: 0 0 15px 15px;
 }
 
@@ -1033,7 +1033,7 @@ h2 {
 }
 
 .settings ul>li,
-.settings ul>a {
+.settings ul a {
     cursor: pointer;
     color: var(--clr-darkBlue);
     text-decoration: none;
