@@ -407,7 +407,7 @@ body {
     cursor: pointer;
     height: 10px;
     border: solid 2px var(--clr-blue);
-    aspect-ratio: 1/1;
+    aspect-ratio: 1;
     margin: 0 2px;
     background-color: var(--clr-darkLightBlue);
     border-radius: 50%;
@@ -415,8 +415,7 @@ body {
     transition: background-color 0.6s ease;
 }
 
-.active,
-.dot:hover {
+.activeDot {
     background-color: var(--clr-blue);
 }
 
@@ -569,7 +568,7 @@ h2 {
 }
 
 .assA {
-    background-image: url(img/pictures/boardgame3.jpg);
+    background-image: url(img/pictures/boardgame3_opt.jpg);
 }
 
 .assB {
